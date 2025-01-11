@@ -1,0 +1,41 @@
+.container {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.indicator {
+	background-color: #cecccc;
+	width: 10px;
+	height: 10px;
+	&[data-active] {
+		background-color: #69e6a6;
+	}
+}
+.indicators {
+	top: 0;
+	justify-content: flex-start;
+}
+
+.control {
+	background-color: #ffffff;
+	border-radius: 50%;
+	cursor: pointer;
+	width: 70px;
+	height: 70px;
+	opacity: 1;
+	color: #000000;
+	&:hover {
+		opacity: 0.6;
+	}
+	&[data-inactive] {
+		opacity: 0.3;
+		cursor: not-allowed;
+		cursor: default;
+	}
+}
+
+.controls {
+	top: -120px;
+	align-items: flex-end;
+	justify-content: flex-end;
+	gap: 10px;
+}

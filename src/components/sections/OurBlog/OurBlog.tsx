@@ -113,22 +113,19 @@ export default function OurBlog() {
 						/>
 					</Card.Section>
 
-					<Flex
-						my={40}
-						gap={20}
-						align={"center"}>
-						<Box className="w-full lg:w-1/2">
+					<Flex className="flex flex-col md:flex-row w-full my-10 items-center gap-4">
+						<Box className="w-full lg:w-1/2 flex items-center md:items-start md:justify-start justify-center text-center md:text-left">
 							<Text
 								fw={400}
 								c={"black"}
 								fz={{ base: 24, lg: 36 }}
-								className="font-manrope w-full lg:w-4/5">
+								className="font-manrope w-[90%] sm:w-3/5 md:w-4/5 mx-auto">
 								We connect our customers with the best, and help them keep
 								up-and stay open.
 							</Text>
 						</Box>
 
-						<Box className="lg:w-1/2">
+						<Box className="w-full sm:w-4/5 lg:w-1/2">
 							<Accordion
 								bg={"transparent"}
 								chevronSize={32}
@@ -149,7 +146,7 @@ export default function OurBlog() {
 					</Flex>
 				</Card>
 
-				<Stack mt={100}>
+				<Stack className="mt-[50px] lg:mt-[100px]">
 					<SectionHeader
 						tag="Our Blog"
 						title="Value proposition accelerator product management venture"
@@ -157,13 +154,14 @@ export default function OurBlog() {
 
 					<SimpleGrid
 						mt={40}
+						className="w-[90%] sm:w-3/4 md:w-full mx-auto"
 						spacing={{ base: 20, lg: 50, xl: 100 }}
 						cols={{ base: 1, sm: 3, md: 3, xl: 3 }}>
 						{cards}
 					</SimpleGrid>
 
 					<Button
-						mt={50}
+						mt={{ base: 30, lg: 50 }}
 						w={"fit-content"}
 						mx={"auto"}
 						radius={50}

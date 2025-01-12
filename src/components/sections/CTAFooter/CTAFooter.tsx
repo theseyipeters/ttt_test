@@ -3,6 +3,7 @@ import { BoldoLogo2 } from "@/components/svgs/svgs";
 import { darkBlue, gray, green } from "@/config/constants";
 import {
 	Badge,
+	Box,
 	Button,
 	Flex,
 	Group,
@@ -13,11 +14,13 @@ import {
 	Text,
 	TextInput,
 } from "@mantine/core";
-import React from "react";
+import classes from "./CTAFooter.module.css";
 import { FooterLink, footerLinks } from "./data";
 import Link from "next/link";
+import { useMediaQuery } from "@mantine/hooks";
 
 export default function CTAFooter() {
+	const mobile = useMediaQuery("(max-width: 768px)");
 	const items = footerLinks.map((item, index) => (
 		<FooterCategory
 			item={item}
@@ -28,10 +31,12 @@ export default function CTAFooter() {
 		<SectionWrapper>
 			<Stack w={"full"}>
 				<Paper
+					h={"fit-content"}
 					radius={20}
 					className="overflow-hidden"
 					pos={"relative"}
-					py={100}
+					py={{ base: 50, lg: 100 }}
+					px={{ base: 20, md: 30 }}
 					bg={darkBlue}>
 					<Stack
 						gap={30}
@@ -40,31 +45,30 @@ export default function CTAFooter() {
 						<Text
 							c={"white"}
 							ta={"center"}
-							fz={{ base: 36, md: 40, lg: 48 }}
+							fz={{ base: 26, sm: 30, md: 40, lg: 48 }}
+							lh={{ base: 1.2, lg: 1.8 }}
 							className="font-manrope w-full md:w-4/5 lg:w-4/5 xl:w-[55%] mx-auto z-20">
 							An enterprise template to ramp up your company website
 						</Text>
 
-						<Group
-							align="center"
-							justify="center"
-							className="h-[60px] w-full md:w-4/5 lg:w-3/5 xl:w-[50%] mx-auto">
+						<Flex className="z-20 flex flex-col sm:flex-row gap-3 sm:gap-3 lg:gap-4 items-center justify-center h-fit w-full md:w-4/5 lg:w-3/5 xl:w-[50%] mx-auto">
 							<TextInput
-								styles={{
-									root: { borderRadius: "50px", height: "60px" },
-									input: { height: "60px" },
+								classNames={{
+									root: classes.input_root,
+									input: classes.input_input,
 								}}
 								placeholder="Your email address"
 								radius={50}
 								bg={"white"}
-								w={400}
-								size="lg"
+								w={{ base: "80%", sm: "90%", md: 300, lg: 400 }}
+								size={mobile ? "md" : "lg"}
 							/>
 
 							<Button
+								mt={{ base: 5, md: 0 }}
 								radius={50}
 								py={10}
-								h={60}
+								h={{ base: 40, lg: 60 }}
 								px={{ base: 20, sm: 30, lg: 35 }}
 								fz={{ base: 16, sm: 16, md: 16, lg: 18, xl: 18 }}
 								bg={green}
@@ -72,7 +76,7 @@ export default function CTAFooter() {
 								c={"black"}>
 								Start now
 							</Button>
-						</Group>
+						</Flex>
 					</Stack>
 					<div className="hidden md:block z-0 bg-[#1C3D5B] w-[900px] h-[900px] rounded-full absolute -right-[300px] -top-[600px]"></div>
 				</Paper>
@@ -83,24 +87,22 @@ export default function CTAFooter() {
 					w={"100%"}
 					mt={120}
 					radius={0}
-					h={300}>
-					<Flex
-						gap={{ base: 40, md: 50, lg: 150 }}
-						className="h-full">
+					h={"fit-content"}>
+					<Flex className="flex flex-col-reverse lg:flex-row h-full gap-10 md:gap-[50px] lg:gap-[150px]">
 						<Stack className="flex basis-1/3 h-full">
-							<Stack gap={50}>
+							<Box className="flex flex-col gap-[30px] lg:gap-[50px]">
 								<div>
 									<BoldoLogo2 />
 								</div>
 
 								<Text
-									className="w-full lg:w-4/5"
+									className="w-full lg:w-full xl:w-4/5"
 									lh={2}
 									c={gray}>
 									Social media validation business model canvas graphical user
 									interface launch party creative facebook iPad twitter.
 								</Text>
-							</Stack>
+							</Box>
 							<Flex className="mt-auto">
 								<Text
 									className="w-full lg:w-4/5 "
@@ -112,7 +114,7 @@ export default function CTAFooter() {
 						</Stack>
 
 						<Flex className="flex basis-2/3">
-							<div className="flex justify-between w-4/5 gap-[40px]">
+							<div className="grid grid-cols-2 sm:flex sm:flex-row justify-between w-4/5 gap-[40px]">
 								{items}
 							</div>
 						</Flex>

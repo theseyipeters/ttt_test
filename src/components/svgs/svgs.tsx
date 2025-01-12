@@ -14,7 +14,7 @@ export const Graph1 = () => {
 						height="231.898"
 						rx="15.0305"
 						fill="white"
-						fill-opacity="0.18"
+						fill-opacity="1"
 					/>
 					<rect
 						x="82.9223"

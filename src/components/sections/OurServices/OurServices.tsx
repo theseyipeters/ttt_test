@@ -23,6 +23,7 @@ import { Icon } from "@iconify/react/dist/iconify.js";
 export default function OurServices() {
 	const cards = features.map((feature, index) => (
 		<Card
+			w={"100%"}
 			bg={"transparent"}
 			key={index}
 			p={0}>
@@ -93,14 +94,15 @@ export default function OurServices() {
 					title="Handshake infographic mass market crowdfunding iteration."
 				/>
 
-				<Box className="w-full sm:w-3/5 lg:w-full xl:w-4/5 mx-auto mt-[80px]">
+				<Box className="w-full sm:w-4/5 md:w-full lg:w-full xl:w-4/5 mx-auto mt-[40px] lg:mt-[80px]">
 					<SimpleGrid
+						className="w-[90%] sm:w-3/4 md:w-full mx-auto"
 						spacing={{ base: 20, lg: 50, xl: 100 }}
 						cols={{ base: 1, sm: 3, md: 3, xl: 3 }}>
 						{cards}
 					</SimpleGrid>
 				</Box>
-				<Box className="w-4/5 mx-auto mt-[180px]">
+				<Box className="w-full sm:w-4/5 lg:w-full xl:w-4/5 mx-auto mt-[100px] lg:mt-[180px]">
 					<SimpleGrid
 						spacing={100}
 						cols={{ base: 1, md: 2 }}>
@@ -179,7 +181,7 @@ export default function OurServices() {
 						</Flex>
 					</SimpleGrid>
 				</Box>
-				<Box className="w-4/5 mx-auto mt-[180px]">
+				<Box className="w-full sm:w-4/5 lg:w-full xl:w-4/5 mx-auto mt-[100px] lg:mt-[180px]">
 					<SimpleGrid
 						spacing={100}
 						cols={{ base: 1, md: 2 }}>

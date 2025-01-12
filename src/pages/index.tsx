@@ -6,6 +6,7 @@ import Testimonials from "@/components/sections/Testimonials/Testimonials";
 import { darkBlue } from "@/config/constants";
 import { Box, Stack } from "@mantine/core";
 import { Manrope, Open_Sans } from "next/font/google";
+import Head from "next/head";
 
 export const manrope = Manrope({
 	variable: "--font-manrope",
@@ -19,6 +20,13 @@ export const openSans = Open_Sans({
 export default function Home() {
 	return (
 		<div>
+			<Head>
+				<link
+					rel="shortcut icon"
+					href="/logomark.svg"
+				/>
+				<title>Boldo - Save time by building fast with Boldo Template </title>
+			</Head>
 			<Stack
 				gap={0}
 				bg={"transparent"}>

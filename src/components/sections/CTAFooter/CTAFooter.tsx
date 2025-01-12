@@ -6,7 +6,6 @@ import {
 	Box,
 	Button,
 	Flex,
-	Group,
 	List,
 	ListItem,
 	Paper,

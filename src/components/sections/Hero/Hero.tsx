@@ -17,7 +17,7 @@ export default function Hero() {
 		"/images/presto.svg",
 	];
 	return (
-		<div className="z-20 w-full h-fit pt-[160px] pb-[60px]  lg:pt-[200px] lg:pb-[100px]">
+		<div className="z-20 w-full h-fit pt-[130px] md:pt-[160px] pb-[60px]  lg:pt-[200px] lg:pb-[100px]">
 			<Box
 				className="grid grid-cols-1 lg:grid-cols-2 gap-y-6 max-w-[1440px] mx-auto"
 				px={0}>
@@ -29,7 +29,7 @@ export default function Hero() {
 							<Text
 								className="w-full lg:w-[95%] font-manrope text-center lg:text-left"
 								c={"white"}
-								fz={{ base: 36, md: 40, lg: 46 }}
+								fz={{ base: 30, md: 40, lg: 46 }}
 								lts={-0.5}
 								fw={500}
 								component="h1"
@@ -41,6 +41,7 @@ export default function Hero() {
 								<Text
 									className="w-full text-center lg:text-left"
 									component="p"
+									fz={{ base: 14, md: 16 }}
 									fw={400}
 									c={"white"}>
 									Funding handshake buyer business-to-business metrics iPad
@@ -63,11 +64,11 @@ export default function Hero() {
 							<Button
 								radius={50}
 								py={{ base: 8, md: 10 }}
-								h={{ base: 50, md: 60 }}
+								h={{ base: 40, md: 60 }}
 								px={{ base: 20, sm: 30, lg: 50 }}
 								fz={{ base: 16, sm: 16, md: 16, lg: 18, xl: 20 }}
 								bg={green}
-								fw={700}
+								fw={{ base: 500, md: 700 }}
 								c={"black"}>
 								Buy template
 							</Button>
@@ -77,9 +78,9 @@ export default function Hero() {
 								px={{ base: 20, sm: 30, lg: 50 }}
 								fz={{ base: 16, sm: 16, md: 16, lg: 18, xl: 20 }}
 								color="white"
-								h={{ base: 50, md: 60 }}
+								h={{ base: 40, md: 60 }}
 								radius={50}
-								fw={700}>
+								fw={{ base: 500, md: 700 }}>
 								Explore
 							</Button>
 						</Group>

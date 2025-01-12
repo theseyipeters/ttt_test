@@ -147,10 +147,12 @@ export default function OurBlog() {
 				</Card>
 
 				<Stack className="mt-[50px] lg:mt-[100px]">
-					<SectionHeader
-						tag="Our Blog"
-						title="Value proposition accelerator product management venture"
-					/>
+					<div className="w-[90%] sm:w-3/4 md:w-full mx-auto">
+						<SectionHeader
+							tag="Our Blog"
+							title="Value proposition accelerator product management venture"
+						/>
+					</div>
 
 					<SimpleGrid
 						mt={40}

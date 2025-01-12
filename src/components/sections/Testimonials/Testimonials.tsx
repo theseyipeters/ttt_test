@@ -32,7 +32,7 @@ export default function Testimonials() {
 				<Flex className="relative">
 					<Text
 						c={"white"}
-						fz={{ base: 36, md: 40, lg: 48 }}
+						fz={{ base: 30, md: 40, lg: 48 }}
 						className="font-manrope w-full md:w-4/5 lg:w-3/5">
 						An enterprise template to ramp up your company website
 					</Text>

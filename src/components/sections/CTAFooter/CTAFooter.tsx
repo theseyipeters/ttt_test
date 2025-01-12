@@ -71,7 +71,7 @@ export default function CTAFooter() {
 								px={{ base: 20, sm: 30, lg: 35 }}
 								fz={{ base: 16, sm: 16, md: 16, lg: 18, xl: 18 }}
 								bg={green}
-								fw={700}
+								fw={{ base: 500, lg: 700 }}
 								c={"black"}>
 								Start now
 							</Button>

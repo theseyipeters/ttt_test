@@ -89,10 +89,12 @@ export default function OurServices() {
 	return (
 		<SectionWrapper>
 			<Stack className="w-full">
-				<SectionHeader
-					tag="Our Services"
-					title="Handshake infographic mass market crowdfunding iteration."
-				/>
+				<div className="w-[90%] sm:w-4/5 md:w-full lg:w-full xl:w-4/5 mx-auto ">
+					<SectionHeader
+						tag="Our Services"
+						title="Handshake infographic mass market crowdfunding iteration."
+					/>
+				</div>
 
 				<Box className="w-full sm:w-4/5 md:w-full lg:w-full xl:w-4/5 mx-auto mt-[40px] lg:mt-[80px]">
 					<SimpleGrid

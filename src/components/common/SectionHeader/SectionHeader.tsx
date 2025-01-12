@@ -14,7 +14,7 @@ export default function SectionHeader({
 			<Text
 				c={"black"}
 				fz={{ base: 30, md: 40, lg: 48 }}
-				lh={{ base: 1.2, lg: 1.8 }}
+				lh={{ base: 1.2, lg: 1.5 }}
 				className="font-manrope text-left md:text-center">
 				{title}
 			</Text>

@@ -29,7 +29,7 @@ export default function Hero() {
 							<Text
 								className="w-full lg:w-[95%] font-manrope text-center lg:text-left"
 								c={"white"}
-								fz={{ base: 30, md: 40, lg: 46 }}
+								fz={{ base: 32, md: 40, lg: 46 }}
 								lts={-0.5}
 								fw={500}
 								component="h1"
@@ -50,6 +50,7 @@ export default function Hero() {
 								<Text
 									className="w-full text-center lg:text-left"
 									component="p"
+									fz={{ base: 14, md: 16 }}
 									fw={400}
 									c={"white"}>
 									First mover advantage innovator success deployment

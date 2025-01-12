@@ -113,13 +113,14 @@ export default function OurBlog() {
 						/>
 					</Card.Section>
 
-					<Flex className="flex flex-col md:flex-row w-full my-10 items-center gap-4">
+					<Flex className="flex flex-col md:flex-row w-full my-10 items-center gap-0 md:gap-4">
 						<Box className="w-full lg:w-1/2 flex items-center md:items-start md:justify-start justify-center text-center md:text-left">
 							<Text
 								fw={400}
 								c={"black"}
+								lh={{ base: 1.2, lg: 1.8 }}
 								fz={{ base: 24, lg: 36 }}
-								className="font-manrope w-[90%] sm:w-3/5 md:w-4/5 mx-auto">
+								className="font-manrope w-[90%] sm:w-3/5 md:w-4/5 mx-auto text-left">
 								We connect our customers with the best, and help them keep
 								up-and stay open.
 							</Text>
@@ -146,7 +147,7 @@ export default function OurBlog() {
 					</Flex>
 				</Card>
 
-				<Stack className="mt-[50px] lg:mt-[100px]">
+				<Stack className="mt-[0px] lg:mt-[50px]">
 					<div className="w-[90%] sm:w-3/4 md:w-full mx-auto">
 						<SectionHeader
 							tag="Our Blog"

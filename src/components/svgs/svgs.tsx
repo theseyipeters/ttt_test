@@ -14,7 +14,7 @@ export const Graph1 = () => {
 						height="231.898"
 						rx="15.0305"
 						fill="white"
-						fill-opacity="0.18"
+						fill-opacity="1"
 					/>
 					<rect
 						x="82.9223"
@@ -172,133 +172,71 @@ export const Graph2 = () => {
 		<svg
 			width="100%"
 			height="100%"
-			viewBox="0 0 193 166"
+			viewBox="0 0 141 107"
 			fill="none"
 			xmlns="http://www.w3.org/2000/svg">
-			<g filter="url(#filter0_b_13_692)">
-				<rect
-					x="0.215698"
-					y="0.664978"
-					width="192.175"
-					height="165.335"
-					rx="15.0305"
-					fill="white"
-					fill-opacity="0.18"
-				/>
-			</g>
-			<ellipse
-				cx="21.1133"
-				cy="18.6005"
-				rx="4.71999"
-				ry="4.75784"
-				fill="#FC5B00"
-			/>
-			<ellipse
-				cx="39.9933"
-				cy="18.6005"
-				rx="4.71999"
-				ry="4.75784"
-				fill="#ECAA00"
-			/>
-			<ellipse
-				cx="58.8732"
-				cy="18.6005"
-				rx="4.71999"
-				ry="4.75784"
-				fill="#009D10"
-			/>
 			<rect
 				width="9.30457"
 				height="23.2668"
 				rx="4.65228"
-				transform="matrix(1 0 0 -1 24.9086 145.528)"
+				transform="matrix(1 0 0 -1 0.908569 106.528)"
 				fill="#0DBBFC"
 			/>
 			<rect
 				width="9.30457"
 				height="13.4841"
 				rx="4.65228"
-				transform="matrix(1 0 0 -1 43.5178 135.745)"
+				transform="matrix(1 0 0 -1 19.5178 96.7453)"
 				fill="#0DBBFC"
 			/>
 			<rect
-				x="62.1268"
-				y="59.8639"
+				x="38.1268"
+				y="20.8639"
 				width="9.30457"
 				height="62.3972"
 				rx="4.65228"
 				fill="#0DBBFC"
 			/>
 			<rect
-				x="80.736"
-				y="79.1647"
+				x="56.736"
+				y="40.1647"
 				width="9.30457"
 				height="43.0964"
 				rx="4.65229"
 				fill="#0DBBFC"
 			/>
 			<rect
-				x="99.3452"
-				y="39.2411"
+				x="75.3452"
+				y="0.241089"
 				width="9.30457"
 				height="83.02"
 				rx="4.65229"
 				fill="#95ABBC"
 			/>
 			<rect
-				x="117.954"
-				y="63.5654"
+				x="93.9542"
+				y="24.5654"
 				width="9.30457"
 				height="58.6957"
 				rx="4.65229"
 				fill="#0DBBFC"
 			/>
 			<rect
-				x="136.563"
-				y="52.1965"
+				x="112.563"
+				y="13.1965"
 				width="9.30456"
 				height="70.0647"
 				rx="4.65228"
 				fill="#0DBBFC"
 			/>
 			<rect
-				x="155.173"
-				y="90.2693"
+				x="131.173"
+				y="51.2693"
 				width="9.30456"
 				height="31.9918"
 				rx="4.65228"
 				fill="#0DBBFC"
 			/>
-			<defs>
-				<filter
-					id="filter0_b_13_692"
-					x="-68.495"
-					y="-68.0457"
-					width="329.596"
-					height="302.756"
-					filterUnits="userSpaceOnUse"
-					color-interpolation-filters="sRGB">
-					<feFlood
-						flood-opacity="0"
-						result="BackgroundImageFix"
-					/>
-					<feGaussianBlur
-						in="BackgroundImageFix"
-						stdDeviation="34.3553"
-					/>
-					<feComposite
-						in2="SourceAlpha"
-						operator="in"
-						result="effect1_backgroundBlur_13_692"
-					/>
-					<feBlend
-						mode="normal"
-						in="SourceGraphic"
-						in2="effect1_backgroundBlur_13_692"
-						result="shape"
-					/>
-				</filter>
-			</defs>
 		</svg>
 	);
 };
@@ -308,150 +246,88 @@ export const Graph3 = () => {
 		<svg
 			width="100%"
 			height="100%"
-			viewBox="0 0 262 166"
+			viewBox="0 0 203 94"
 			fill="none"
 			xmlns="http://www.w3.org/2000/svg">
-			<g filter="url(#filter0_b_1_553)">
-				<rect
-					x="0.0405273"
-					y="0.664978"
-					width="261.959"
-					height="165.335"
-					rx="14.1323"
-					fill="white"
-					fill-opacity="0.2"
+			<rect
+				x="198.041"
+				y="21.5327"
+				width="8.00001"
+				height="72"
+				rx="4"
+				transform="rotate(90 198.041 21.5327)"
+				fill="#95ABBC"
+			/>
+			<rect
+				x="194.041"
+				y="43.665"
+				width="8.00001"
+				height="68"
+				rx="4"
+				transform="rotate(90 194.041 43.665)"
+				fill="#95ABBC"
+			/>
+			<rect
+				x="202.041"
+				y="65.7973"
+				width="8.00001"
+				height="76"
+				rx="4"
+				transform="rotate(90 202.041 65.7973)"
+				fill="#95ABBC"
+			/>
+			<g clip-path="url(#clip0_1_555)">
+				<path
+					d="M86.6865 47.2946C86.6865 69.346 68.8542 87.1966 46.8882 87.1966C24.9222 87.1966 7.08984 69.346 7.08984 47.2946C7.08984 25.2433 24.9222 7.39258 46.8882 7.39258C68.8542 7.39258 86.6865 25.2433 86.6865 47.2946Z"
+					stroke="#0A2640"
+					stroke-width="13.3928"
 				/>
-				<rect
-					x="226.041"
-					y="68.5327"
-					width="8.00001"
-					height="72"
-					rx="4"
-					transform="rotate(90 226.041 68.5327)"
-					fill="#95ABBC"
-				/>
-				<rect
-					x="222.041"
-					y="90.665"
-					width="8.00001"
-					height="68"
-					rx="4"
-					transform="rotate(90 222.041 90.665)"
-					fill="#95ABBC"
-				/>
-				<rect
-					x="230.041"
-					y="112.797"
-					width="8.00001"
-					height="76"
-					rx="4"
-					transform="rotate(90 230.041 112.797)"
-					fill="#95ABBC"
-				/>
-				<g clip-path="url(#clip0_1_553)">
+				<mask
+					id="mask0_1_555"
+					maskUnits="userSpaceOnUse"
+					x="-28"
+					y="-17"
+					width="74"
+					height="122">
 					<path
-						d="M114.687 94.2946C114.687 116.346 96.8542 134.197 74.8882 134.197C52.9222 134.197 35.0898 116.346 35.0898 94.2946C35.0898 72.2433 52.9222 54.3926 74.8882 54.3926C96.8542 54.3926 114.687 72.2433 114.687 94.2946Z"
-						stroke="#0A2640"
+						d="M45.405 42.9976L27.2687 -16.1593L-27.6346 53.5731L1.54823 104.468L45.405 42.9976Z"
+						fill="#C4C4C4"
+					/>
+				</mask>
+				<g mask="url(#mask0_1_555)">
+					<path
+						d="M86.6874 47.294C86.6874 69.3454 68.855 87.196 46.889 87.196C24.9231 87.196 7.0907 69.3454 7.0907 47.294C7.0907 25.2426 24.9231 7.39197 46.889 7.39197C68.855 7.39197 86.6874 25.2426 86.6874 47.294Z"
+						stroke="#0DBBFC"
 						stroke-width="13.3928"
 					/>
-					<mask
-						id="mask0_1_553"
-						// style="mask-type:alpha"
-						maskUnits="userSpaceOnUse"
-						x="0"
-						y="30"
-						width="74"
-						height="122">
-						<path
-							d="M73.405 89.9976L55.2687 30.8407L0.365356 100.573L29.5482 151.468L73.405 89.9976Z"
-							fill="#C4C4C4"
-						/>
-					</mask>
-					<g mask="url(#mask0_1_553)">
-						<path
-							d="M114.687 94.294C114.687 116.345 96.855 134.196 74.889 134.196C52.9231 134.196 35.0907 116.345 35.0907 94.294C35.0907 72.2426 52.9231 54.392 74.889 54.392C96.855 54.392 114.687 72.2426 114.687 94.294Z"
-							stroke="#0DBBFC"
-							stroke-width="13.3928"
-						/>
-					</g>
-					<mask
-						id="mask1_1_553"
-						// style="mask-type:alpha"
-						maskUnits="userSpaceOnUse"
-						x="49"
-						y="25"
-						width="91"
-						height="85">
-						<path
-							d="M79.5436 95.1817L139.54 109.873L107.835 26.9133L49.2717 25.9598L79.5436 95.1817Z"
-							fill="#C4C4C4"
-						/>
-					</mask>
-					<g mask="url(#mask1_1_553)">
-						<path
-							d="M54.4888 128.535C35.5966 117.249 29.3964 92.7627 40.6427 73.8416C51.889 54.9204 76.3215 48.7324 95.2138 60.0177C114.106 71.303 120.306 95.7896 109.06 114.711C97.8136 133.632 73.381 139.82 54.4888 128.535Z"
-							stroke="#69E6A6"
-							stroke-width="13.3928"
-						/>
-					</g>
+				</g>
+				<mask
+					id="mask1_1_555"
+					maskUnits="userSpaceOnUse"
+					x="21"
+					y="-22"
+					width="91"
+					height="85">
+					<path
+						d="M51.5436 48.1817L111.54 62.8726L79.8347 -20.0867L21.2717 -21.0402L51.5436 48.1817Z"
+						fill="#C4C4C4"
+					/>
+				</mask>
+				<g mask="url(#mask1_1_555)">
+					<path
+						d="M26.4888 81.5347C7.59658 70.2494 1.39636 45.7627 12.6427 26.8416C23.889 7.92042 48.3215 1.73235 67.2138 13.0177C86.106 24.303 92.3062 48.7896 81.0599 67.7108C69.8136 86.6319 45.381 92.82 26.4888 81.5347Z"
+						stroke="#69E6A6"
+						stroke-width="13.3928"
+					/>
 				</g>
 			</g>
-			<ellipse
-				cx="20.9421"
-				cy="18"
-				rx="4.8"
-				ry="5"
-				fill="#FC5B00"
-			/>
-			<ellipse
-				cx="40.1422"
-				cy="18"
-				rx="4.8"
-				ry="5"
-				fill="#ECAA00"
-			/>
-			<ellipse
-				cx="59.342"
-				cy="18"
-				rx="4.8"
-				ry="5"
-				fill="#009D10"
-			/>
 			<defs>
-				<filter
-					id="filter0_b_1_553"
-					x="-133.086"
-					y="-132.462"
-					width="528.213"
-					height="431.589"
-					filterUnits="userSpaceOnUse"
-					color-interpolation-filters="sRGB">
-					<feFlood
-						flood-opacity="0"
-						result="BackgroundImageFix"
-					/>
-					<feGaussianBlur
-						in="BackgroundImageFix"
-						stdDeviation="66.5635"
-					/>
-					<feComposite
-						in2="SourceAlpha"
-						operator="in"
-						result="effect1_backgroundBlur_1_553"
-					/>
-					<feBlend
-						mode="normal"
-						in="SourceGraphic"
-						in2="effect1_backgroundBlur_1_553"
-						result="shape"
-					/>
-				</filter>
-				<clipPath id="clip0_1_553">
+				<clipPath id="clip0_1_555">
 					<rect
 						width="93.0378"
 						height="93.0378"
 						fill="white"
-						transform="translate(28.3052 47.7727)"
+						transform="translate(0.305176 0.772705)"
 					/>
 				</clipPath>
 			</defs>

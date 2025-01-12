@@ -1,0 +1,30 @@
+.input_root {
+	border-radius: 50px;
+	height: 60px;
+}
+
+.input_input {
+	height: 60px;
+}
+
+@media (max-width: 991px) {
+	.input_root {
+		border-radius: 30px;
+		height: 40px;
+	}
+
+	.input_input {
+		height: 40px;
+	}
+}
+
+@media (max-width: 525px) {
+	.input_root {
+		border-radius: 30px;
+		height: 30px;
+	}
+
+	.input_input {
+		height: 30px;
+	}
+}

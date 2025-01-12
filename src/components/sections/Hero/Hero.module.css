@@ -7,7 +7,7 @@
 .imageContainer {
 	position: relative;
 	/* border: 1px solid; */
-	width: 200px;
+	width: 180px;
 	height: 70px;
 	margin-right: 40px;
 }
@@ -16,8 +16,69 @@
 	width: 100%;
 	height: 100%;
 	object-fit: contain;
+}
 
-	@media (max-width: 768px) {
-		height: 20px;
+.graph1 {
+	width: 100%;
+	height: 231.898px;
+	flex-shrink: 0;
+	border-radius: 15.03px;
+	background: rgba(255, 255, 255, 0.18);
+	backdrop-filter: blur(34.35533142089844px);
+}
+.graph2 {
+	width: 100%;
+	height: 100%;
+	flex-shrink: 0;
+	border-radius: 15.03px;
+	background: rgba(255, 255, 255, 0.18);
+	backdrop-filter: blur(34.35533142089844px);
+}
+.graph3 {
+	width: 100%;
+	height: 100%;
+	flex-shrink: 0;
+	border-radius: 15.03px;
+	background: rgba(255, 255, 255, 0.18);
+	backdrop-filter: blur(34.35533142089844px);
+}
+
+@media (max-width: 1280px) {
+	.imageContainer {
+		width: 160px;
+		height: 70px;
+	}
+
+	.graph1 {
+		width: 100%;
+	}
+}
+@media (max-width: 1024px) {
+	.imageContainer {
+		width: 120px;
+		height: 70px;
+	}
+	.graph1 {
+		width: 100%;
+	}
+}
+@media (max-width: 991px) {
+	.imageContainer {
+		width: 140px;
+		height: 70px;
+	}
+	.graph1 {
+		width: 100%;
+	}
+}
+
+@media (max-width: 768px) {
+	.imageContainer {
+		width: 100px;
+		height: 70px;
+	}
+
+	.graph1 {
+		width: 100%;
 	}
 }

@@ -18,6 +18,7 @@ export default function SectionHeader({
 				c={"black"}
 				ta={"center"}
 				fz={{ base: 36, md: 40, lg: 48 }}
+				lh={{ base: 1.2, lg: 1.8 }}
 				className="font-manrope">
 				{title}
 			</Text>

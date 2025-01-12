@@ -9,7 +9,7 @@ export default function Banner() {
 
 	useEffect(() => {
 		const handleScroll = () => {
-			setIsScrolled(window.scrollY > 700);
+			setIsScrolled(window.scrollY > 100);
 		};
 
 		window.addEventListener("scroll", handleScroll);
@@ -28,7 +28,9 @@ export default function Banner() {
 				className="z-20 w-full">
 				<div
 					className={`${
-						isScrolled ? "bg-[#0A2640] pt-[10px]" : "bg-transparent pt-[40px]"
+						isScrolled
+							? "bg-[#0A2640] pt-[10px]"
+							: "bg-transparent pt-[10px] lg:pt-[40px]"
 					}  z-40  fixed top-0 left-0 right-0 w-full px-4 md:px-[50px] lg:px-[100px] transition-all duration-200`}>
 					<Navbar />
 				</div>

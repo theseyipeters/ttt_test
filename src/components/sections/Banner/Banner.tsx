@@ -25,7 +25,7 @@ export default function Banner() {
 			<Box
 				pos={"relative"}
 				size={"lg"}
-				className="z-20 w-full">
+				className="z-40 w-full">
 				<div
 					className={`${
 						isScrolled

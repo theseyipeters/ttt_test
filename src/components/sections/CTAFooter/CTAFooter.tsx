@@ -59,7 +59,7 @@ export default function CTAFooter() {
 								placeholder="Your email address"
 								radius={50}
 								bg={"white"}
-								w={{ base: "80%", sm: "90%", md: 300, lg: 400 }}
+								w={{ base: "80%", sm: "80%", md: 300, lg: 400 }}
 								size={mobile ? "md" : "lg"}
 							/>
 
@@ -84,7 +84,7 @@ export default function CTAFooter() {
 					mb={50}
 					py={30}
 					w={"100%"}
-					mt={120}
+					mt={{ base: 50, lg: 100 }}
 					radius={0}
 					h={"fit-content"}>
 					<Flex className="flex flex-col-reverse lg:flex-row h-full gap-10 md:gap-[50px] lg:gap-[150px]">

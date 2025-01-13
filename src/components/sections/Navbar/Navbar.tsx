@@ -19,7 +19,7 @@ export default function Navbar() {
 	const [drawerOpened, { toggle: toggleDrawer, close: closeDrawer }] =
 		useDisclosure(false);
 	return (
-		<nav className="w-full bg-transparent py-5 flex items-center justify-between max-w-[1440px] mx-auto">
+		<nav className="z-40 w-full bg-transparent py-5 flex items-center justify-between max-w-[1440px] mx-auto">
 			<div className="w-[120px] md:w-[120px] lg:w-[140px] xl:w-[160px]">
 				<BoldoLogo />
 			</div>

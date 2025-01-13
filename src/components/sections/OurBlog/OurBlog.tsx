@@ -113,7 +113,7 @@ export default function OurBlog() {
 						/>
 					</Card.Section>
 
-					<Flex className="flex flex-col md:flex-row w-full my-10 items-center gap-0 md:gap-4">
+					<Flex className="flex flex-col md:flex-row w-full my-10 items-center gap-4 md:gap-4">
 						<Box className="w-full lg:w-1/2 flex items-center md:items-start md:justify-start justify-center text-center md:text-left">
 							<Text
 								fw={400}
